@@ -3,12 +3,7 @@
     src: url(font.ttf);
   }
 :root{
-    --border-radius: 5px;
-    --border-width: 1px;
-    --light-grey: #e2e0e0;
-    --blue: #7f6cfc;
     --orange: #ffc877;
-    --red: #c14444;
 }
 *{
     font-family: digital-7;

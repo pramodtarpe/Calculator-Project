@@ -33,7 +33,7 @@ function process(){
         display.textContent += value;
     }
 }
-
+// Add event listener to all buttons
 for(let i = 0;i<buttons.length;i++){
     buttons[i].addEventListener("click",process,false);
 }

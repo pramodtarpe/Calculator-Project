@@ -44,6 +44,7 @@
     margin: 0;
     word-wrap: break-word;
     display: inline-block;
+    overflow: hidden;
 }
 
 #btn-container{

@@ -39,7 +39,7 @@ function keyProcess(){
     if(display.textContent == "0" && value == "."){
         display.textContent = "0.";
     }
-    else if(value == "="){
+    else if(value == "=" || event.keyCode == 13){
         try{
             var result = eval(display.textContent);
             display.textContent = result;

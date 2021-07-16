@@ -85,3 +85,8 @@
     background-color: var(--orange);
     transition: background-color .5s;
 }
+.credits{
+    text-align: right;
+    font-size: 1.2rem;
+    font-family: montserrat;
+}

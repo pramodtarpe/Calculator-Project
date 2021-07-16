@@ -54,7 +54,7 @@ function keyProcess(){
     else if(isOperator(value) && display.textContent[display.textContent.length-1] == value){
         display.textContent = display.textContent; 
     }
-    else{
+    else if((value >= "0" && value <= "9") || ((value == "." || value == "+" || value == "-" || value == "*" || value == "/" || value == "%"))){
         if(display.textContent == "0"){
             display.textContent = "";
         }

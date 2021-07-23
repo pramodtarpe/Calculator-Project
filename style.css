@@ -4,6 +4,7 @@
   }
 :root{
     --orange: #ffc877;
+    --border-radius: 15px;
 }
 *{
     font-family: digital-7;
@@ -14,10 +15,9 @@
     width: 600px;
     height: auto;
     margin: auto;
-    border: 15px;
     background-color: lightgray;
     border-bottom: 5px solid black;
-    border-radius: 15px;
+    border-radius: var(--border-radius);
     padding-bottom: 10px;
 }
 #heading{
@@ -30,7 +30,7 @@
     width: 95%;
     height: 100px;
     background-color: lightslategrey;
-    border-radius: 15px;
+    border-radius: var(--border-radius);
     margin: auto;
     display: flex;
     align-items: flex-end;
@@ -50,7 +50,7 @@
     height: 400px;
     width: 95%;
     margin: 10px auto;
-    border-radius: 15px;
+    border-radius: var(--border-radius);
     background-color: lightsalmon;
     display: flex;
     flex: row;
@@ -67,13 +67,14 @@
     width: 20%;
     background-color: white;
     box-shadow: 5px 5px 5px lightslategrey;
-    border-radius: 2%;
+    border-radius: var(--border-radius);
 
 }
-.button:active{
+.animate-btn{
+    background-color: var(--orange);
     transform: translate(2px,2px);
     box-shadow: 1px 1px 1px black;
-    transition: translate .2s , box-shadow .2s;
+    transition: translate .1s , box-shadow .1s , background-color  .1s;
 }
 .button:hover{
     background-color: var(--orange);
